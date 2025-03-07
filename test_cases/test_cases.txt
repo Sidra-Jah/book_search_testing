@@ -1,0 +1,39 @@
+Test Case ID: TC_001
+Title: Search for a book using the search bar
+Preconditions: User is on DuckDuckGo's main page
+Steps:
+
+Click on the search input field
+Enter the search term "Buy books"
+Press the Enter key or click the search button
+Expected Result: Search results related to "Buy books" should be displayed, showing relevant book listings.
+
+Test Case ID: TC_002
+Title: Search for a different book
+Preconditions: User is on DuckDuckGo's main page
+Steps:
+
+Click on the search input field
+Enter the search term "Buy fiction books"
+Press the Enter key or click the search button
+Expected Result: Search results related to "Buy fiction books" should be displayed.
+
+Test Case ID: TC_003
+Title: Verify no results for an uncommon book term
+Preconditions: User is on DuckDuckGo's main page
+Steps:
+
+Click on the search input field
+Enter a random string like "asdfsdf123456"
+Press the Enter key or click the search button
+Expected Result: A message indicating no results should be displayed, or no relevant results found for the random string.
+
+Test Case ID: TC_004
+Title: Verify search functionality with special characters for books
+Preconditions: User is on DuckDuckGo's main page
+Steps:
+
+Click on the search input field
+Enter special characters like "@#$%^&* books"
+Press the Enter key or click the search button
+Expected Result: Either no results or a relevant message indicating invalid search should be displayed.
